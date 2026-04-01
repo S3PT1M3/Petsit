@@ -1,0 +1,92 @@
+.pricing {
+    padding: 80px 10%;
+    background: #fff;
+    text-align: center;
+  }
+
+  .pricing h2 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+
+  .pricing-intro {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 50px;
+  }
+
+  .pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+  }
+
+  .pricing-card {
+    background: #fdfaf5;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+  }
+
+  .pricing-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+  }
+
+  .pricing-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .price {
+    font-size: 2rem;
+    color: #ff6b35;
+    margin: 15px 0;
+    font-weight: bold;
+  }
+
+  .pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    color: #666;
+  }
+
+  .pricing-card ul li {
+    margin-bottom: 8px;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff6b35;
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+
+  .btn:hover {
+    background: #e85a2c;
+  }
+
+  /* Badge Populaire */
+  .badge {
+    background: #ff6b35;
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 0.8rem;
+    border-radius: 15px;
+    position: absolute;
+    top: -12px;
+    right: 15px;
+  }
+
+  .popular {
+    border: 2px solid #ff6b35;
+  }

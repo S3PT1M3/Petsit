@@ -1,0 +1,101 @@
+.avis {
+  background: #fffdf9;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.avis-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.avis h2 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.avis-intro {
+  color: #666;
+  margin-bottom: 40px;
+  font-size: 1.1rem;
+}
+
+/* Slider */
+.avis-slider {
+  display: flex;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.avis-card {
+  min-width: 300px;
+  max-width: 300px;
+  background: #ffffff;
+  margin: 0 15px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.avis-card:hover {
+  transform: translateY(-5px);
+}
+
+.avis-avatar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.avis-avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.avis-name {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.avis-animal {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.avis-stars {
+  color: #ffb400;
+  margin: 10px 0;
+}
+
+.avis-text {
+  font-style: italic;
+  color: #444;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Navigation */
+.avis-buttons {
+  margin-top: 25px;
+}
+
+.avis-buttons button {
+  background: #ff7f50;
+  border: none;
+  padding: 12px 18px;
+  margin: 0 8px;
+  border-radius: 50%;
+  color: white;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.avis-buttons button:hover {
+  background: #e96c3a;
+}

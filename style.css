@@ -1,0 +1,132 @@
+/* RESET */
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body { font-family: 'Poppins', sans-serif; }
+
+  /* HERO */
+  .hero {
+    height: 100vh;
+    background: url('images/animaux3.jpg') no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  /* Overlay sombre */
+  .hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    z-index: 0;
+  }
+
+  /* NAVBAR */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+
+  .nav-links a:hover {
+    color: #ff914d;
+  }
+
+  .btn-nav {
+    padding: 8px 15px;
+    background: #ff914d;
+    border-radius: 20px;
+    color: white !important;
+  }
+
+  /* HERO CONTENT */
+  .hero-content {
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 100px;
+    animation: fadeInUp 1s ease forwards;
+    opacity: 0;
+  }
+
+  .badge {
+    background: #ff914d;
+    padding: 6px 15px;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+  .hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+
+  .hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  #cta-btn, .secondary-btn {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+
+  #cta-btn {
+    background: #ff914d;
+    color: white;
+  }
+
+  #cta-btn:hover {
+    background: #ff7a1f;
+  }
+
+  .secondary-btn {
+    background: white;
+    color: #333;
+  }
+
+  .secondary-btn:hover {
+    background: #ddd;
+  }
+
+  /* Animation */
+  @keyframes fadeInUp {
+    from { transform: translateY(30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }

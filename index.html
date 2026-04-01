@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Petsit</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="a-propos.css">
+  <link rel="stylesheet" href="services.css">
+  <link rel="stylesheet" href="tarifs.css">
+  <link rel="stylesheet" href="reservation.css">
+  <link rel="stylesheet" href="avis.css">
+  <link rel="stylesheet" href="faq.css">
+  <link rel="stylesheet" href="cta.css">
+  <link rel="stylesheet" href="footer.css">
+  <!-- Icônes (via Font Awesome CDN) -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+<header class="hero" id="hero">
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">🐾 Petsit</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Accueil</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#tarifs">Tarifs</a></li>
+      <li><a href="#avis">Avis</a></li>
+      <li><a href="#reservation" class="btn-nav">Réserver</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contenu Hero -->
+  <div class="hero-content">
+    <!--span class="badge">Disponible à Nice & alentours</span-->
+    <h1>Prenez soin de vos animaux,<br> même quand vous n’êtes pas là</h1>
+    <p>Service de pet sitting professionnel, fiable et flexible</p>
+    <div class="hero-buttons">
+      <button id="cta-btn">Réserver maintenant</button>
+      <!--button id="tarifs-btn" class="secondary-btn">Voir nos tarifs</button-->
+    </div>
+  </div>
+</header>
+
+<section class="about" id="about">
+  <div class="about-container">
+    <!-- Image -->
+    <div class="about-image">
+      <img src="images/animaux1.jpg" alt="Septime KAKPOVI avec un animal">
+    </div>
+
+    <!-- Texte -->
+    <div class="about-text">
+      <h2>À propos de Petsit</h2>
+      <p>
+        Petsit est une structure spécialisée dans la garde des animaux domestiques, animée par une équipe active, passionnée et attentive.
+        Nous veillons à offrir un service fiable, personnalisé et chaleureux à <strong>Nice et dans ses alentours</strong>.
+        Chaque compagnon que nous accueillons reçoit toute l’attention, le soin et l’affection qu’il mérite… comme s’il faisait partie de notre propre famille 🐾.
+      </p>
+
+      <!-- Valeurs clés -->
+      <div class="values">
+        <div class="value">
+          <span class="icon">✅</span>
+          <p>Fiabilité</p>
+        </div>
+        <div class="value">
+          <span class="icon">⚡</span>
+          <p>Flexibilité</p>
+        </div>
+        <div class="value">
+          <span class="icon">❤️</span>
+          <p>Amour des animaux</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="services" id="services">
+  <div class="services-container">
+    <h2>Nos services</h2>
+    <p class="services-intro">
+      Chez <strong>Petsit</strong>, vos animaux sont accueillis dans un environnement sûr, confortable et plein d’affection à Nice et ses alentours.
+    </p>
+
+    <div class="services-grid">
+      <!-- Service 1 -->
+      <div class="service-card">
+        <div class="service-icon">🏡</div>
+        <h3>Hébergement chez nous</h3>
+        <p>
+          Votre animal séjourne dans notre espace spécialement aménagé, avec confort, sécurité et présence attentive 24h/24.
+        </p>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="service-card">
+        <div class="service-icon">🎾</div>
+        <h3>Promenades & Jeux</h3>
+        <p>
+          Des sorties quotidiennes et des moments ludiques adaptés au rythme et à la personnalité de chaque compagnon.
+        </p>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="service-card">
+        <div class="service-icon">📸</div>
+        <h3>Suivi & Nouvelles</h3>
+        <p>
+          Envoi régulier de photos et vidéos pour vous permettre de rester connecté avec votre animal même à distance.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="pricing" id="tarifs">
+  <div class="pricing-container">
+    <h2>Nos tarifs</h2>
+    <p class="pricing-intro">
+      Des formules simples et transparentes pour le bien-être de vos compagnons.
+    </p>
+
+    <div class="pricing-grid">
+      <!-- Formule 1 -->
+      <div class="pricing-card">
+        <h3>Journée</h3>
+        <p class="price">25€</p>
+        <ul>
+          <li>Accueil chez nous</li>
+          <li>Promenades incluses</li>
+          <li>Jeux & câlins</li>
+        </ul>
+        <a href="#reservation" class="btn">Réserver maintenant</a>
+      </div>
+
+      <!-- Formule 2 -->
+      <div class="pricing-card popular">
+        <div class="badge">Populaire</div>
+        <h3>Week-end</h3>
+        <p class="price">60€</p>
+        <ul>
+          <li>Accueil chez nous (2 jours)</li>
+          <li>Promenades & jeux illimités</li>
+          <li>Suivi photo/vidéo</li>
+        </ul>
+        <a href="#reservation" class="btn">Réserver maintenant</a>
+      </div>
+
+      <!-- Formule 3 -->
+      <div class="pricing-card">
+        <h3>Semaine</h3>
+        <p class="price">180€</p>
+        <ul>
+          <li>Accueil chez nous (7 jours)</li>
+          <li>Activités quotidiennes</li>
+          <li>Suivi photo/vidéo</li>
+        </ul>
+        <a href="#reservation" class="btn">Réserver maintenant</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="reservation" id="reservation">
+  <div class="reservation-container">
+    <h2>Réservation en ligne</h2>
+    <p class="reservation-intro">
+      Réservez facilement une garde pour votre compagnon.
+    </p>
+
+    <form id="reservation-form">
+      <!-- Nom & Prénom -->
+      <div class="form-group">
+        <label for="name">Nom et prénom</label>
+        <input type="text" id="name" name="name" placeholder="Ex: Marie Dupont" required>
+      </div>
+
+      <!-- Type d'animal -->
+      <div class="form-group">
+        <label for="animal">Type d’animal</label>
+        <select id="animal" name="animal" required>
+          <option value="">-- Sélectionnez --</option>
+          <option value="Chien">Chien</option>
+          <option value="Chat">Chat</option>
+          <option value="Oiseau">Oiseau</option>
+          <option value="Rongeur">Rongeur</option>
+          <option value="Autre">Autre</option>
+        </select>
+      </div>
+
+      <!-- Date(s) -->
+      <div class="form-group">
+        <label for="date">Date de garde</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+
+      <!-- Service choisi -->
+      <div class="form-group">
+        <label for="service">Formule choisie</label>
+        <select id="service" name="service" required>
+          <option value="">-- Sélectionnez --</option>
+          <option value="Hébergement">Journée</option>
+          <option value="Promenades">Week-end</option>
+          <option value="Suivi">Semaine</option>
+        </select>
+      </div>
+
+      <!-- Message optionnel -->
+      <div class="form-group">
+        <label for="message">Message (optionnel)</label>
+        <textarea id="message" name="message" placeholder="Précisez des informations utiles sur votre animal..."></textarea>
+      </div>
+
+      <!-- Bouton -->
+      <button type="submit" class="btn">Confirmer la réservation</button>
+    </form>
+
+    <!-- Message de confirmation -->
+    <div id="confirmation-message" class="hidden">
+      ✅ Votre réservation a bien été enregistrée ! <br>
+      Vous recevrez une confirmation par email ou SMS 📩.
+    </div>
+  </div>
+</section>
+
+<section class="avis" id="avis">
+  <div class="avis-container">
+    <h2>Ce que disent nos clients</h2>
+    <p class="avis-intro">La satisfaction de nos clients est notre plus belle récompense.</p>
+
+    <!-- Carrousel -->
+    <div class="avis-slider" id="avis-slider">
+      <!-- Les avis seront injectés ici par JavaScript -->
+    </div>
+
+    <!-- Navigation -->
+    <div class="avis-buttons">
+      <button id="prev">&#10094;</button>
+      <button id="next">&#10095;</button>
+    </div>
+  </div>
+</section>
+
+<section class="faq" id="faq">
+  <div class="faq-container">
+    <h2>❓ Foire Aux Questions</h2>
+    <p class="faq-intro">Vous avez des questions ? Nous avons les réponses</p>
+
+    <div class="faq-item">
+      <button class="faq-question">Quels animaux acceptez-vous ?</button>
+      <div class="faq-answer">
+        <p>Nous accueillons les chiens, chats, lapins, rongeurs et certains NAC (nouveaux animaux de compagnie). 
+        N’hésitez pas à nous contacter pour des cas particuliers.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Dois-je fournir la nourriture de mon animal ?</button>
+      <div class="faq-answer">
+        <p>Oui, nous vous recommandons d’apporter la nourriture habituelle de votre animal afin de ne pas perturber ses habitudes alimentaires.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Puis-je visiter avant de réserver ?</button>
+      <div class="faq-answer">
+        <p>Bien sûr ! Nous serons ravis de vous accueillir pour une visite afin que vous puissiez découvrir notre environnement et rencontrer l’équipe.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <button class="faq-question">Comment fonctionne la réservation ?</button>
+      <div class="faq-answer">
+        <p>Vous pouvez réserver directement en ligne via notre formulaire, choisir vos dates et le service souhaité. Une confirmation vous sera envoyée par email ou SMS.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="final-cta" id="contact">
+  <div class="cta-container">
+    <h2>Prêt à confier vos animaux à <span>Petsit</span> ?</h2>
+    <p>Réservez dès maintenant et offrez à vos compagnons une garde de qualité à Nice et ses alentours.</p>
+    
+    <div class="cta-buttons">
+      <a href="#reservation" class="btn-primary">Réserver maintenant</a>
+      <a href="#services" class="btn-secondary">Découvrir nos services</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Colonne 1 : Logo et slogan -->
+    <div class="footer-col">
+      <h3>🐾 Petsit</h3>
+      <p>Prendre soin de vos animaux, comme si c’était les nôtres 💕</p>
+    </div>
+
+    <!-- Colonne 2 : Navigation rapide -->
+    <div class="footer-col">
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="#hero">Accueil</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#tarifs">Tarifs</a></li>
+        <li><a href="#avis">Avis</a></li>
+        <li><a href="#reservation">Réservation</a></li>
+      </ul>
+    </div>
+
+    <!-- Colonne 3 : Contact -->
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p><i class="fas fa-map-marker-alt"></i> Nice, France</p>
+      <p><i class="fas fa-phone-alt"></i> +33 7 45 52 81 37</p>
+      <p><i class="fas fa-envelope"></i> contact@petsit.fr</p>
+    </div>
+
+    <!-- Colonne 4 : Réseaux sociaux -->
+    <div class="footer-col">
+      <h4>Suivez-nous</h4>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Petsit. Tous droits réservés.</p>
+  </div>
+</footer>
+
+
+
+
+
+<script src="script.js"></script>
+<script src="avis.js"></script>
+<script src="faq.js"></script>
+<script src="cta.js"></script>
+<script src="footer.js"></script>
+</body>
+</html>
